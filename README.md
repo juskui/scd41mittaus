@@ -1,4 +1,4 @@
-\# Pico 2W SCD41 Air Quality Monitor 2
+# Pico 2W SCD41 Air Quality Monitor 2
 
 
 
@@ -6,13 +6,13 @@ Tämä projekti on kevyt ja itsenäinen ilmanlaadun seurantalaite, joka on toteu
 
 
 
-\## Ominaisuudet
+## Ominaisuudet
 
-\- \*\*Reaaliaikainen seuranta:\*\* CO2 (ppm), Lämpötila (°C) ja Kosteus (%).
+- \*\*Reaaliaikainen seuranta:\*\* CO2 (ppm), Lämpötila (°C) ja Kosteus (%).
 
-\- \*\*Datan tallennus:\*\* Tallentaa mittaukset 15 minuutin välein `data.csv`-tiedostoon (2 viikon historia).
+- \*\*Datan tallennus:\*\* Tallentaa mittaukset 15 minuutin välein `data.csv`-tiedostoon (2 viikon historia).
 
-\- \*\*Web-käyttöliittymä:\*\* Interaktiivinen Google Charts -graafi, jossa:
+- \*\*Web-käyttöliittymä:\*\* Interaktiivinen Google Charts -graafi, jossa:
 
 &#x20;   - Suodatus: 24h, 3pv, 7pv ja 14pv näkymät.
 
@@ -20,21 +20,19 @@ Tämä projekti on kevyt ja itsenäinen ilmanlaadun seurantalaite, joka on toteu
 
 &#x20;   - Päivän vaihtumisen osoittavat pystyviivat.
 
-\- \*\*Vikasietoisuus:\*\* Automaattinen Wi-Fi-uudelleenkytkentä ja vuorokautinen NTP-aikasynkronointi.
+- \*\*Vikasietoisuus:\*\* Automaattinen Wi-Fi-uudelleenkytkentä ja vuorokautinen NTP-aikasynkronointi.
 
 
 
-\## Laitteisto
+## Laitteisto
 
-\- \*\*Raspberry Pi Pico 2W\*\* (tai Pico W)
-
-\- \*\*Sensirion SCD41\*\* CO2-sensori (I2C-väylä)
-
-\- Micro-USB-kaapeli virransyöttöön
+- \*\*Raspberry Pi Pico 2W\*\* (tai Pico W)
+- \*\*Sensirion SCD41\*\* CO2-sensori (I2C-väylä)
+- Micro-USB-kaapeli virransyöttöön
 
 
 
-\## Kytkennät
+## Kytkennät
 
 | SCD41 Pin | Pico 2W Pin | Tehtävä |
 
@@ -50,10 +48,9 @@ Tämä projekti on kevyt ja itsenäinen ilmanlaadun seurantalaite, joka on toteu
 
 
 
-\## Asennus
+## Asennus
 
 1\. Varmista, että Picoon on asennettu \*\*MicroPython\*\*-firmware.
-
 2\. Luo tiedosto `wifi.py` ja lisää sinne verkkosi tiedot:
 
 &#x20;  ```python
@@ -65,14 +62,12 @@ Tämä projekti on kevyt ja itsenäinen ilmanlaadun seurantalaite, joka on toteu
 &#x20;  ```
 
 3\. Kopioi projektin pääkoodi tiedostoon `main.py` ja tallenna se Picoon.
-
 4\. Käynnistä Pico. Laite tulostaa IP-osoitteen konsoliin, kun se on yhdistänyt verkkoon.
-
 5\. Avaa selaimella Picon IP-osoite nähdäksesi graafit.
 
 
 
-\## Käyttö
+## Käyttö
 
 Graafi päivittyy automaattisesti taustalla. Voit vaihtaa aikaväliä yläreunan painikkeilla. Jos sähköt katkeavat, laite lataa aiemman historian automaattisesti tiedostosta käynnistyksen yhteydessä.
 
