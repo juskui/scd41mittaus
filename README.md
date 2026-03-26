@@ -1,19 +1,3 @@
-Your project's README.md file is ready.
-
-
-
-\[file-tag: project-readme-v1]
-
-
-
-Tässä on ehdotus GitHub-yhteensopivasta `README.md`-tiedostosta, joka on tiivis mutta sisältää kaiken olennaisen.
-
-
-
-\---
-
-
-
 \# Pico 2W SCD41 Air Quality Monitor
 
 
