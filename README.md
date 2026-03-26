@@ -23,13 +23,11 @@ Tämä projekti on kevyt ja itsenäinen ilmanlaadun seurantalaite, joka on toteu
 - \*\*Vikasietoisuus:\*\* Automaattinen Wi-Fi-uudelleenkytkentä ja vuorokautinen NTP-aikasynkronointi.
 
 
-
 ## Laitteisto
 
 - \*\*Raspberry Pi Pico 2W\*\* (tai Pico W)
 - \*\*Sensirion SCD41\*\* CO2-sensori (I2C-väylä)
 - Micro-USB-kaapeli virransyöttöön
-
 
 
 ## Kytkennät
@@ -64,7 +62,6 @@ Tämä projekti on kevyt ja itsenäinen ilmanlaadun seurantalaite, joka on toteu
 3\. Kopioi projektin pääkoodi tiedostoon `main.py` ja tallenna se Picoon.
 4\. Käynnistä Pico. Laite tulostaa IP-osoitteen konsoliin, kun se on yhdistänyt verkkoon.
 5\. Avaa selaimella Picon IP-osoite nähdäksesi graafit.
-
 
 
 ## Käyttö
