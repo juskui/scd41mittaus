@@ -1,4 +1,4 @@
-\# Pico 2W SCD41 Air Quality Monitor
+\# Pico 2W SCD41 Air Quality Monitor 2
 
 
 
